@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--######################NAVIGATION#########################-->
+    <nav class="navbar">
+        <div class=" rightside mobile">
+            <h1 class="open-menu" id="open-menu"><i class="fas fa-bars"></i></h1>
+            <ul class="links">
+                <li class="active"><a href="#">All</a></li>
+                <li><a href="#">Images</a></li>
+            </ul>
+            <div class="nav-links" id="nav-links">
+                <div class="close-menu" id="close-menu">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="logo-mobile">
+                    <img src="images/google.png" alt="google">
+                </div>
+                <ul class="nav">
+                    <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="#"><i class="fas fa-history"></i>Search History</a></li>
+                    <li><a href="#"><i class="fas fa-bookmark"></i>Collections</a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
+                    <li><a href="#"><i class="fas fa-clone"></i>Hide explict results: off</a></li>
+                    <li><a href="#"><i class="fas fa-search-location"></i>How Search works</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i>Help</a></li>
+                    <li><a href="#"><i class="fas fa-comment-alt"></i>Send Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="desktop">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+        </div>
+        <div class="leftside">
+            <div class="dots">
+                <svg class="gb_Ve" focusable='false' viewBox='0 0 24 24'>
+                    <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z" data-iml="1627630911853"></path>
+                </svg>
+            </div>
+            <a href="#" class="btn">Sign In</a>
+        </div>
+    </nav>
+    <!--####################CONTENT########################-->
+    <main>
+        <div class="container">
+            <div class="content-image">
+                <img src="images/google.png" alt="">
+            </div>
+            <form action="">
+                <input type="text" name="text" id="text" class="input">
+                <div class="left">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="right">
+                    <i class="fas fa-camera"></i>
+                    <I class=" fas fa-keyboard"></I>
+                    <i class="fas fa-search" ></i>
+                </div>
+            </form>
+        </div>
+    </main>
+    <hr>
+    <div class='footer'>
+        <ul class="footer-links">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
